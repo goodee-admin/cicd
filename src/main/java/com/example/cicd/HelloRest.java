@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloRest {
 	@GetMapping("/")
 	public String hello() {
+		// 웹훅 테스트
 		return "hello";
 	}
 }
