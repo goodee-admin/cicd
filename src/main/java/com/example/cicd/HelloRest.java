@@ -8,6 +8,6 @@ public class HelloRest {
 	@GetMapping("/")
 	public String hello() {
 		// 웹훅 테스트4
-		return "hello2";
+		return "hello3";
 	}
 }
